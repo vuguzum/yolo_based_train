@@ -37,7 +37,7 @@ python augment_dataset.py
 ```
 python yolo_learn_metrics_compare.py
 ```
->Создаётся две папки exp1/ и exp2/, содержащие графики обучения и файлы results.csv.
+>Создаётся две папки runs/detect/exp1/ и runs/detect/exp2/, содержащие графики обучения и файлы results.csv.
 4. Тестирование модели на видео:
 ```
 python yolo_test_video.py
