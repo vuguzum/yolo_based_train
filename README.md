@@ -32,7 +32,7 @@ python extract_video_frames.py
 ```
 python augment_dataset.py
 ```
->После выполнения создаются новые изображения и аннотации в папках augmented/images/ и augmented/labels/. 
+>После выполнения создаются новые изображения и аннотации в папках project/augmented/images/ и project/augmented/labels/. 
 3. Обучение и сравнение двух моделей:
 ```
 python yolo_learn_metrics_compare.py
